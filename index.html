@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <h1>FORM</h1>
+    </div>
+
+    <div class="details">
+
+            <div class="main-div">
+                <div class="name-div"> FIRST NAME </div>
+                <div class="input-div"> <input  type="text" class="input" id="FIRST NAME" required  placeholder="Enter Your First Name"> </div>
+            </div>
+
+            <div class="main-div">
+                <div class="name-div"> <td >LAST NAME</td> </div>
+                <div class="input-div"> <td> <input class="input" type="text" id="LAST NAME" required  placeholder="Enter Your Last Name"> </td></div>
+            </div>
+
+            <div class="main-div">
+                <div class="name-div"> <td >ADDRESS</td> </div>
+                <div class="input-div"> <td> <input class="input" type="text" id="ADDRESS" required  placeholder="Enter Your Address"> </td></div>
+            </div>
+
+            
+            <div class="main-div">
+                <div class="name-div"> <td >GENDER</td> </div>
+                <select class="input1" required id="GENDER"> 
+                    <option  disabled selected hidden>Select Your Option</option>
+                    <option value="MALE">MALE</option>
+                    <option value="FEMALE">FEMALE</option>
+                    <option value="OTHERS">OTHERS</option>
+                </select>
+            </div>
+
+            <div class="main-div">
+                <div class="name-div"> <td >PINCODE</td> </div>
+                <div class="input-div"> <td> <input class="input" type="text" id="PINCODE" required  placeholder="Enter Your Pincode"> </td></div>
+            </div>
+
+            <div class="main-div">
+                <div class="name-div"> <td >STATE</td> </div>
+                <div class="input-div"> <td> <input class="input" type="text" id="STATE" required  placeholder="Enter Your State"> </td></div>
+            </div>
+
+            <div class="main-div">
+                <div class="name-div"> <td >COUNTRY</td> </div>
+                <div class="input-div"> <td> <input class="input" type="text" id="COUNTRY" required  placeholder="Enter Your Country"> </td></div>
+            </div>
+            
+            <div class="button">
+                <button class="btn" onclick="buttonclick()" id="submit">Submit</button>
+            </div>
+
+            <div class="table-div">
+                <table class="table">
+                    <thead>
+                        <tr >
+                            <th class="tablehead">First Name</th>
+                            <th class="tablehead">Last Name</th>
+                            <th class="tablehead">Address</th>
+                            <th class="tablehead">Gender</th>
+                            <th class="tablehead">Pincode</th>
+                            <th class="tablehead">State</th>
+                            <th class="tablehead">Country</th>
+                        </tr>
+                    </thead> 
+                    <tbody id="tbody">
+                         
+                    </tbody>
+
+                </table>
+            </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

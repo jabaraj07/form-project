@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    margin: 10px 20px;
+}
+.main-div{
+    display: flex;
+    margin: 10px 0px;
+}
+.name-div{
+    width: 45%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.input-div{
+    width: 45%;
+    /* background-color: rgb(145, 76, 76); */
+}
+.input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+.input1{  
+    width: 45.2%;
+    height: 30px;
+    outline: none;
+    opacity: 0.9;
+}
+.input:focus,.input1:focus{
+    outline: 3px solid #FFCC00;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 60%;
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    background-color: rgb(234, 78, 78);
+    border-style: none;
+}
+.table-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.table{
+    /* display: flex;
+    justify-content: center; */
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tablehead{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 80px;
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+tbody > tr >td{
+    background-color: red;
+    border: 3px solid black;
+    border-collapse: collapse;
+    height: 50px;
+}
+
+
+
+
